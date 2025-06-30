@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decision Escape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕹️ 결정장애 탈출기 <span class="site-title">Decision Escape</span></h1>
+    <form id="decision-form">
+      <input type="text" id="question" placeholder="질문을 입력하세요 (예: 오늘 뭐 먹지?)" required />
+      <input type="text" id="choices" placeholder="선택지를 쉼표로 구분해 입력 (예: 김치볶음밥, 제육볶음, 라면) - 비우면 예/아니오" />
+      <button type="submit">결정해줘!</button>
+    </form>
+    <div id="result" class="result"></div>
+    <div class="recent-questions">
+      <h2>최근 질문</h2>
+      <ul id="recent-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
